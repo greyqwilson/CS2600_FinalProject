@@ -22,3 +22,6 @@ findx "number" - Guides the user with audio feedback when the balance is within 
 findy "number" - Does the same as above, but in the y-direction.
 feedval - Broadcasts the current reading of the device to a remote console and subscriber of digiBalance/feed
 cintv - Changes the interval at which the device calculates (and broadcasts) the measurements.
+
+Video demonstration:
+https://youtu.be/xwn6cSpX4pE
