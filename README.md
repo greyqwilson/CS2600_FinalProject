@@ -16,11 +16,16 @@ An 10-LED light bar is used to reflect how far off balance in the y-direction th
 An LCD screen is used to reflect how far off balance in the x-direction the balance is.
 The LCD screen also provides the current angle, in degrees, of both the x and y directions.
 The ESP32 on board uses MQTT to execute remote commands.
+
 Commands:
 angle - sets the digiBalance to the default mode of measuring the angle in degrees.
+
 findx "number" - Guides the user with audio feedback when the balance is within +- 3 degrees of the target angle.
+
 findy "number" - Does the same as above, but in the y-direction.
+
 feedval - Broadcasts the current reading of the device to a remote console and subscriber of digiBalance/feed
+
 cintv - Changes the interval at which the device calculates (and broadcasts) the measurements.
 
 Video demonstration:
